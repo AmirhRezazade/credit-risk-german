@@ -1,0 +1,5 @@
+Model,Cutoff,ROC-AUC,Average precision (PR-AUC summary),Precision,Recall,F1,FN,FP,Cost / customer
+Decision Tree (baseline) @0.50,0.5,0.72,0.495,0.613,0.317,0.418,41,12,1.085
+Decision Tree (baseline) @cost-opt,0.21,0.72,0.495,0.397,0.833,0.538,10,76,0.63
+Random Forest (tuned) @0.50,0.5,0.814,0.694,0.793,0.383,0.517,37,6,0.955
+Random Forest (tuned) @cost-opt,0.23,0.814,0.694,0.426,0.867,0.571,8,70,0.55

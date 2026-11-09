@@ -1,0 +1,3 @@
+Model,Train OOF cutoff,Test FN,Test FP,Test cost / record,Test approval rate
+Raw RF,0.23,8,70,0.55,0.39
+Platt calibrated RF,0.19,8,69,0.545,0.395
